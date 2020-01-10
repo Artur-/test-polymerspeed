@@ -10,7 +10,7 @@ public class MainView extends VerticalLayout {
     public MainView() {
         Button button = new Button("Add more", event -> addMicroComponent());
         add(button);
-        for (int i = 0; i < 10; i++)
+        for (int i = 0; i < 500; i++)
             addMicroComponent();
     }
 
